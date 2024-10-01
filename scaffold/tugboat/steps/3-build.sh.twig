@@ -6,5 +6,7 @@
 set -eux
 echo "Building..."
 
+composer install
+
 ./vendor/bin/task {{ build_command }}
 ./vendor/bin/task {{ update_command }}

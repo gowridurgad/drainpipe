@@ -1,6 +1,8 @@
 {
   "name": "@lullabot/drainpipe",
   "packageManager": "yarn@4.9.4",
+   "package-manager-cache" : true
+  
   "workspaces": [
     "metapackages/*"
   ],

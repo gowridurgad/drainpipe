@@ -1,10 +1,6 @@
 name: Validate example Taskfile.yml
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    types: [opened, synchronize, reopened]
+  workflow_dispatch:
 
 jobs:
   Validate-Example-Taskfile:
